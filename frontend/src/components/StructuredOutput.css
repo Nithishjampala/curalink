@@ -1,0 +1,79 @@
+.structured-output {
+  margin-bottom: 2rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.section-header h2 {
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #00d4ff, #7b2cbf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.info-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  transition: all 0.3s;
+}
+
+.info-card:hover {
+  border-color: rgba(0, 212, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.card-header span {
+  font-size: 1.3rem;
+}
+
+.card-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.info-card p {
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.info-card.condition {
+  border-left: 4px solid #00d4ff;
+}
+
+.info-card.insights {
+  border-left: 4px solid #7b2cbf;
+}
+
+.info-card.personalized {
+  border-left: 4px solid #ffd700;
+  background: rgba(255, 215, 0, 0.05);
+}
+
+.metadata-bar {
+  display: flex;
+  gap: 20px;
+  padding: 0.8rem;
+  background: rgba(0, 212, 255, 0.05);
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 1rem;
+}

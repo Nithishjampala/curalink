@@ -1,0 +1,95 @@
+.clinical-trials {
+  margin-top: 2rem;
+}
+
+.trials-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.trials-header h3 {
+  font-size: 1.2rem;
+}
+
+.trials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trial-card {
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(123, 44, 191, 0.3);
+  transition: all 0.3s;
+}
+
+.trial-card:hover {
+  border-color: rgba(123, 44, 191, 0.6);
+}
+
+.trial-status {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.trial-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.trial-phase {
+  font-size: 0.7rem;
+  color: #7b2cbf;
+  margin-bottom: 8px;
+}
+
+.trial-locations {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #999;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.trial-eligibility details {
+  font-size: 0.75rem;
+  margin: 8px 0;
+}
+
+.trial-eligibility summary {
+  cursor: pointer;
+  color: #00d4ff;
+}
+
+.trial-eligibility p {
+  margin-top: 8px;
+  color: #bbb;
+  line-height: 1.4;
+}
+
+.trial-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.trial-contact a {
+  color: #00d4ff;
+  text-decoration: none;
+}
